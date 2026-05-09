@@ -512,23 +512,47 @@ La navigation interne n'utilise pas le NavController pour les étapes, mais un �
 
 ---
 
-## 14. 🚀 Guide d'installation et de lancement
+## 14. 🚀 Installation sur un nouveau poste
 
-1. **Prérequis** :
-   - Android Studio Hedgehog (2023.1.1) ou supérieur.
-   - JDK 17 configuré.
-   - SDK Android 34 installé.
-2. **Installation** :
-   - Clonez le dépôt ou importez le dossier dans Android Studio.
-   - Cliquez sur **File > Sync Project with Gradle Files**.
-3. **Lancement** :
-   - Sélectionnez un émulateur avec **API 26 (Android 8.0)** minimum.
-   - Cliquez sur le bouton **Run 'app'**.
-4. **Test rapide** :
-   - Connectez-vous avec `demo@constatauto.tn` / `demo123`.
-   - Explorez les 5 constats pré-chargés ou créez-en un nouveau.
+Pour cloner et exécuter ce projet sur un autre ordinateur, suivez ces étapes détaillées.
+
+### 14.1 Environnement requis
+Assurez-vous que votre environnement de développement respecte les versions suivantes :
+- **Système d'exploitation** : Windows 10/11, macOS ou Linux.
+- **IDE** : [Android Studio Hedgehog](https://developer.android.com/studio) (2023.1.1) ou une version plus récente.
+- **Java JDK** : Version **17** (obligatoire pour Gradle 8+).
+- **Android SDK** : API Level **34** (UpsideDownCake).
+- **Gradle** : Version **8.13** (inclus via le wrapper).
+- **Kotlin** : Version **1.9.22**.
+
+### 14.2 Étapes d'installation
+1. **Clonage du projet** :
+   ```bash
+   git clone https://github.com/ayedoumayma/constats-automobiles-num-riques.git
+   ```
+2. **Ouverture dans Android Studio** :
+   - Lancez Android Studio.
+   - Sélectionnez **Open** et choisissez le dossier `malekApp`.
+3. **Configuration du JDK** :
+   - Allez dans `File > Settings` (Windows) ou `Android Studio > Settings` (macOS).
+   - Naviguez vers `Build, Execution, Deployment > Build Tools > Gradle`.
+   - Vérifiez que **Gradle JDK** est bien réglé sur la version **17**.
+4. **Synchronisation Gradle** :
+   - Cliquez sur l'icône "Elephant" (**Sync Project with Gradle Files**) dans la barre d'outils.
+   - Attendez que le message "BUILD SUCCESSFUL" apparaisse dans la console.
+5. **Préparation de l'émulateur** :
+   - Ouvrez le **Device Manager**.
+   - Créez ou lancez un émulateur avec une **API 26 (Android 8.0)** ou supérieure.
+6. **Lancement de l'application** :
+   - Cliquez sur le bouton vert **Run 'app'** (Maj+F10).
+
+### 14.3 Test de bon fonctionnement
+- Au premier lancement, l'application doit afficher l'écran de **Login**.
+- Utilisez les identifiants de démonstration : `demo@constatauto.tn` / `demo123`.
+- Si vous voyez les 5 constats exemples sur le Dashboard, l'installation est réussie.
 
 ---
+
 
 ## 15. 📦 Dépendances (build.gradle.kts)
 
