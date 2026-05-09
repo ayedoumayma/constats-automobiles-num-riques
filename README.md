@@ -3,6 +3,26 @@
 
 ---
 
+## 🖼️ Aperçu visuel
+
+<p align="center">
+  <img src="screenshots/login.png" width="30%" alt="Connexion" />
+  <img src="screenshots/dashboard.png" width="30%" alt="Dashboard" />
+  <img src="screenshots/form_step1.png" width="30%" alt="Formulaire" />
+</p>
+
+<p align="center">
+  <img src="screenshots/detail.png" width="30%" alt="Détails" />
+  <img src="screenshots/status_dialog.png" width="30%" alt="Statut" />
+  <img src="screenshots/menu.png" width="30%" alt="Options" />
+</p>
+
+<p align="center">
+  <img src="screenshots/filter_submitted.png" width="30%" alt="Filtrage" />
+</p>
+
+---
+
 ## 1. 📋 Présentation du projet
 
 **ConstatAuto** est une application mobile moderne conçue pour simplifier et numériser le processus de remplissage d'un constat amiable d'accident automobile. Dans un moment de stress comme un accident de la route, l'application guide l'utilisateur pas à pas pour capturer toutes les informations nécessaires de manière structurée et lisible.
